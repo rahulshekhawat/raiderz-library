@@ -1,7 +1,7 @@
-# RaiderZ Data Logger
-This repository contains scripts to log data from RaiderZ files
+# RaiderZ Library
+This repository contains scripts related to reading or parsing RaiderZ Files
 
 ## Files Types Supported
 * elu (models)
 * ani (animations)
-* RaiderZ material xml files
+<!--- * RaiderZ material xml files --->
