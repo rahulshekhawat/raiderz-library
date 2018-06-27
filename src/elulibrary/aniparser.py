@@ -67,7 +67,6 @@ class FAniFileLoaderImpl_v6(FAniFileLoaderImpl):
 
             self.LoadVertexAniBoundingBox(Node, FileStream)
         except struct.error as err:
-            print("NASTY NASTY BITCH")
             errorhandling.HandleStructUnpackError(err)
     
     def LoadBoneAni(self, Node, FileStream, Offset=None):
